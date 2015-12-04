@@ -241,12 +241,11 @@ main {
   }
 }
 .copyright {
+  text-align: right;
   display: block;
   margin-bottom: .7em;
 
   a {
-    text-decoration: underline;
-
     color: lighten($gray-dark, 5%);
 
     &:hover {
